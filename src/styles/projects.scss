@@ -1,0 +1,41 @@
+@import './colors.scss';
+
+.project {
+    box-shadow: 0px 0px 10px blue ;
+    margin: 2px 2px 2px 2px;
+    margin-right: 75px;
+    transition: .5s;
+    position: relative;
+}
+
+.aboutProject {
+    position: absolute;
+    font-size: 1.5em;
+    background: rgba(#232, .7);
+    width: 100%;
+    height: 100%;
+    h1, p {
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+}
+
+.teste-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .teste-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .teste-exit {
+    opacity: 1;
+  }
+  .teste-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+  

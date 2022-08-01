@@ -1,0 +1,50 @@
+@import './colors.scss';
+.navBar {
+    background: linear-gradient(185deg, $sidebarColor2, $purple);
+    height: 100vh;
+    width: 2vw;
+    overflow: scroll;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    &:hover {
+        width: 10vw
+    }
+
+    .current {
+        transform: scale(.9);
+        background: linear-gradient(180deg, $purple, $sidebarColor2);
+        border: 5px solid rgba(59, 25, 169, .4);
+        box-shadow: 0 0 20px rgb(22, 195, 25), 0 0 30px rgba(10, 255, 14, .4);
+        color: rgba(250, 250, 250, .6);
+    }
+}
+
+.header {
+    border-bottom: 2px solid $sidebarColor1;
+    box-shadow: 0 0 10px $purple, 0 0 15px $darkPurple, 0 0 0 4px $darkGreen;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.footer {
+    position: relative;
+    top: auto;
+    border-top: 2px solid $sidebarColor1;
+    height: 100vh;
+    box-shadow: 0 0 10px $purple, 0 0 15px $darkPurple, 0 0 0 4px $darkGreen;
+    color: white;
+    top: 4.5vh;
+}
+
+.item {
+    color: white;
+    padding-top: 10px;
+    box-shadow: 0 0 5px $purple;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0 0 15px 0 $purple;
+        transform: scale(.9);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "pdek": {
+        "title": "Plugin Develpment Essentials Kit",
+        "version": "V1.0.0",
+        "link": "https://github.com/AProject22/Plugin-Development-Essentials-Kit-PDEK-",
+        "description": "Plugin com várias classes Java que servem para auxiliar outros desenvolvedores, este possuí classe para implementação de banco de dados SQLite e MySQL, informar o dono do servidor que possuí versão nova de algum plugin, passar dados para saber quantos servidores usam tal plugin, etc",
+        "img": {
+            "url": "https://static.wixstatic.com/media/422a0f_2c910df1618b43bdb6ad6aa24b57315b~mv2.png",
+            "height": 550,
+            "width": 550
+        }
+    },
+    "Supreme Homes": {
+        "title": "Supreme Homes",
+        "version": "V2.0.0",
+        "link": "https://github.com/ALTech22/Supreme-Homes",
+        "description": "Este plugin acessa um arquivo .yml aonde salva dados de posição no mundo de minecraft como: posição no mundo (x,y,z), nome do mundo e nome do ponto de teleporte, e com esses dados o player pode retornar a esse ponto de teleporte usando o nome e quando quiser. \n Também é possível diferenciar a quantidade de pontos que cada player pode ter através de permissões, podendo ter vips ou algo do tipo.",
+        "img": {
+            "url": "https://i.imgur.com/yKYGASY.jpeg",
+            "height": 550,
+            "width": 550
+        }
+    },
+    "Supreme Homes2": {
+        "title": "Supreme Homes",
+        "version": "V2.0.0",
+        "link": "https://github.com/ALTech22/Supreme-Homes",
+        "description": "Este plugin acessa um arquivo .yml aonde salva dados de posição no mundo de minecraft como: posição no mundo (x,y,z), nome do mundo e nome do ponto de teleporte, e com esses dados o player pode retornar a esse ponto de teleporte usando o nome e quando quiser. \n Também é possível diferenciar a quantidade de pontos que cada player pode ter através de permissões, podendo ter vips ou algo do tipo.",
+        "img": {
+            "url": "https://i.imgur.com/yKYGASY.jpeg",
+            "height": 150,
+            "width": 150
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.circle {
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: testeAnim infinite 2s;
+    border-top: 5px solid red;
+    border-bottom: 5px solid blue;
+    
+}
+
+
+@keyframes testeAnim {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,34 @@
+@import './colors.scss';
+
+*{
+    font-size: 1em;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+  }
+
+.container {
+    background-color: rgba($purple, .35);
+    border-radius: 25px;
+    max-width: 75vw;
+    height: 87vh;
+    margin: auto;
+    color: white;
+    font-size: large;
+    .content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        max-height: 75vh;
+        max-width: 100%;
+        overflow: scroll;
+    }
+}
