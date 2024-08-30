@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './styles/App.scss'
 import LeftMenu from './components/left-menu'
 import { pages } from './types'
-import AboutMe from './components/about';
+import AboutMe from './components/content/about';
 
 function App() {
   const [page, setPage] = useState<pages>("about_me");
