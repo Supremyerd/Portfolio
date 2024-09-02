@@ -5,4 +5,15 @@
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   overflow: hidden;
+  background-color: black;
+}
+
+.tooltip > .tooltip-inner {
+  background-color: white !important;
+  color: black !important;
+}
+
+.tooltip-arrow {
+  // background-color: greenyellow !important;
+  --bs-tooltip-bg: greenyellow;
 }
