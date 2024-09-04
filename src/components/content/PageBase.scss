@@ -11,3 +11,21 @@
   width: 75vw;
   height: 6vh;
 }
+.content {
+  color: black;
+  font-size: large;
+  position: absolute;
+  display: grid;
+  place-items: left;
+  background-color: wheat;
+  border-radius: 7px;
+}
+.middle {
+  left: 15vw;
+  top: 10.5vh;
+  width: 75vw;
+  height: 39vh;
+  text-align: start;
+  overflow-y: scroll;
+
+}
