@@ -35,10 +35,12 @@
     
         display: flex;
         align-items: center;
+        transition: 1s;
 
         &:hover {
             // background-color: black;
-            animation: btn-animation alternate 2s forwards;
+            background-color: black;
+            transform: scale(1.15);
         }
         
 
@@ -85,7 +87,6 @@
     0% {
         transform: scale(1);
     } 100% {
-        background-color: black;
-        transform: scale(1.15);
+        
     }
 }

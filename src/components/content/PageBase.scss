@@ -26,6 +26,13 @@
   width: 75vw;
   height: 39vh;
   text-align: start;
-  overflow-y: scroll;
-
+  overflow-y: auto;
+}
+.bottom {
+  left: 15vw;
+  top: 50.5vh;
+  width: 75vw;
+  height: 46vh;
+  text-align: start;
+  overflow-y: hidden;
 }

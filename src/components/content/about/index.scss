@@ -1,1 +1,13 @@
-@use '../PageBase'
+@use '../PageBase';
+
+.carrousel {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    
+}
+
+.carousel {
+    position: relative;
+    width: 55%;
+    left: 20%;
+}
