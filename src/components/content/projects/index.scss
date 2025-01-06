@@ -1,0 +1,20 @@
+@use '../PageBase';
+
+.deck {
+    text-align: center;
+    left: 15vw;
+    top: 10.5vh;
+    // background-color: #3b002a;
+    // color: white;
+    width: 75vw;
+    height: 84vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+
+
+}

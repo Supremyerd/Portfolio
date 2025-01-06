@@ -3,6 +3,7 @@ import './styles/App.scss'
 import LeftMenu from './components/left-menu'
 import { pages } from './types'
 import AboutMe from './components/content/about';
+import Projects from './components/content/projects';
 
 function App() {
   const [page, setPage] = useState<pages>("about_me");
@@ -16,6 +17,8 @@ function App() {
       case 'about_me':
 
       return <AboutMe/>
+      case 'projects':
+         return <Projects/>
       default:
       return <div style={{position: 'absolute', left: '28vw', backgroundColor: 'red'}}>
         aAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAA

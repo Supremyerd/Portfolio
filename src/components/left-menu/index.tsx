@@ -2,7 +2,8 @@ import { pages } from '../../types';
 import { Tooltip } from '../utils/ToolTip';
 import './index.scss';
 import { GitHub, MenuBook, Handyman, ReceiptLong} from '@mui/icons-material';
-import * as bootstrap from 'bootstrap';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// import * as bootstrap from 'bootstrap';
 
 
 type props = {
@@ -12,12 +13,11 @@ type props = {
 
 function LeftMenu({selectButton, changePage} :props) {
 
-    return <>
+    return (
     
     <div className="menu-left">
 
         <div className="icon">
-                
         </div>
 
         <Tooltip placement='right' text='Sobre'>
@@ -44,7 +44,7 @@ function LeftMenu({selectButton, changePage} :props) {
         </Tooltip>
         
     </div>
-    </>
+    )
 }
 
 export default LeftMenu;
