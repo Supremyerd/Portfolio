@@ -38,7 +38,7 @@ function LeftMenu({selectButton, changePage} :props) {
           </div>
         </Tooltip>
         <Tooltip placement='right' text='Github'>
-          <a href='https://github.com/Supremyerd' target="_blank" className={selectButton == 'github' ? 'select' : 'btn'} onClick={() => changePage('github')}>
+          <a href='https://github.com/Supremyerd' target="_blank" className={selectButton == 'github' ? 'select' : 'btn'}>
                 <GitHub className='btn-icon'/>
           </a>
         </Tooltip>
